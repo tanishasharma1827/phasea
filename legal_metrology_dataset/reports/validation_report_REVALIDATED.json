@@ -1,0 +1,25 @@
+{
+  "all_images_open": {
+    "status": "PASS",
+    "failures": [],
+    "failure_count": 0
+  },
+  "no_orphan_ocr_annotations": {
+    "status": "PASS",
+    "orphan_count": 0
+  },
+  "yolo_bbox_bounds_check": {
+    "status": "PASS",
+    "boxes_checked": 12797,
+    "boxes_out_of_bounds": 0
+  },
+  "no_product_leakage_across_splits": {
+    "status": "PASS",
+    "leaked_products": {}
+  },
+  "class_ids_valid": {
+    "status": "PASS",
+    "bad_lines": 0
+  },
+  "OVERALL": "PASS"
+}

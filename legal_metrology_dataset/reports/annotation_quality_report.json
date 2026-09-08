@@ -1,0 +1,23 @@
+{
+  "_generated_by": "scripts/recompute_reports.py",
+  "by_source": {
+    "GroceryStoreDataset_Klasson2019": {
+      "images": 1776,
+      "unique_products": 31,
+      "ocr_regions": 13644,
+      "declaration_field_candidates": 24
+    },
+    "ICDAR2019_SROIE": {
+      "images": 595,
+      "unique_products": 595,
+      "ocr_regions": 0,
+      "declaration_field_candidates": 0
+    },
+    "OpenFoodFacts": {
+      "images": 499,
+      "unique_products": 499,
+      "ocr_regions": 2954,
+      "declaration_field_candidates": 94
+    }
+  }
+}

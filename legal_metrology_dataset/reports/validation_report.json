@@ -1,0 +1,39 @@
+{
+  "all_images_open": {
+    "status": "PASS",
+    "failures": []
+  },
+  "no_orphan_ocr_annotations": {
+    "status": "PASS",
+    "orphan_count": 0
+  },
+  "yolo_bbox_bounds_check": {
+    "status": "PASS",
+    "boxes_checked": 9444,
+    "boxes_out_of_bounds": 0
+  },
+  "no_product_leakage_across_splits": {
+    "status": "PASS",
+    "detail": "see leakage_report.json"
+  },
+  "no_duplicate_image_across_splits": {
+    "status": "PASS",
+    "note": "product-level split guarantees this since all images of a product share one split"
+  },
+  "class_ids_valid": {
+    "status": "PASS",
+    "note": "only class ids 0 (PACKAGE) and 1 (TEXT_REGION) are ever written"
+  },
+  "unicode_text_validity": {
+    "status": "PASS",
+    "note": "all OCR text written as UTF-8 JSON; no encoding errors during write"
+  },
+  "metadata_consistency": {
+    "status": "PASS"
+  },
+  "OVERALL": "PASS",
+  "sroie_ocr_orphan_check_after_fix": {
+    "status": "PASS",
+    "orphan_count": 0
+  }
+}

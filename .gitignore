@@ -1,0 +1,8 @@
+torch_gpu/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.vscode/

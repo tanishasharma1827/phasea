@@ -1,0 +1,6 @@
+{
+  "note": "This checks the ORIGINAL Klasson et al. train/val/test split, not ours. It is a per-image classification split where every class intentionally appears in all three splits -- correct for their benchmark, but why we did NOT use it as our leakage-safe product-level split.",
+  "total_products_in_official_index": 81,
+  "products_appearing_in_multiple_official_splits": 81,
+  "conclusion": "Official split is NOT product-level leakage-safe by design (intentional for classification benchmarking). Our own product-level 70/15/15 split (seed=1337, see build_dataset.py) remains the correct choice for this project's detector/field-extraction use case."
+}

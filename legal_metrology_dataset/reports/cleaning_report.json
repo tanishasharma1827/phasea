@@ -1,0 +1,19 @@
+{
+  "grocery_packages": {
+    "input_count": 1776,
+    "kept": 1776,
+    "rejected_count": 0,
+    "near_duplicate_count": 0,
+    "rejection_reason_counts": {}
+  },
+  "sroie_receipts": {
+    "input_count": 626,
+    "kept": 595,
+    "rejected_count": 31,
+    "near_duplicate_count": 26,
+    "rejection_reason_counts": {
+      "exact_duplicate_of": 5,
+      "near_duplicate": 26
+    }
+  }
+}

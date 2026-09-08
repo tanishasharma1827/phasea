@@ -1,0 +1,12 @@
+# YOLO dataset config
+# PACKAGE box = heuristic full-frame annotation (AUTO_FULLFRAME_HEURISTIC) -- see annotation_quality_report.json
+# TEXT_REGION boxes = real Tesseract 5.3.4 OCR output (AUTO), confidence-filtered at 0.30
+path: ../images/international_packaging
+train: ../annotations/yolo/images
+val: ../annotations/yolo/images
+test: ../annotations/yolo/images
+nc: 2
+names: ['PACKAGE', 'TEXT_REGION']
+# NOTE: this config points all splits at the same folder; use metadata/splits.csv
+# to filter image_id by split when building your actual train/val/test file lists,
+# since Ultralytics expects separate folders or list files per split.

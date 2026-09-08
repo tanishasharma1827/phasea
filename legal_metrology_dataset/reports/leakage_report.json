@@ -1,0 +1,14 @@
+{
+  "grocery_packages": {
+    "unique_products": 31,
+    "products_leaked_across_splits": 0,
+    "leak_detail": {},
+    "status": "PASS"
+  },
+  "sroie_receipts": {
+    "unique_documents": 595,
+    "documents_leaked_across_splits": 0,
+    "leak_detail": {},
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "_generated_by": "scripts/recompute_reports.py -- derived live from files on disk, not cached counters",
+  "total_images_real": 2870,
+  "synthetic_images": 0,
+  "images_per_source": {
+    "GroceryStoreDataset_Klasson2019": 1776,
+    "ICDAR2019_SROIE": 595,
+    "OpenFoodFacts": 499
+  },
+  "unique_products_per_source": {
+    "GroceryStoreDataset_Klasson2019": 31,
+    "ICDAR2019_SROIE": 595,
+    "OpenFoodFacts": 499
+  },
+  "images_per_split_per_source": {
+    "GroceryStoreDataset_Klasson2019": {
+      "train": 1286,
+      "val": 254,
+      "test": 236
+    },
+    "ICDAR2019_SROIE": {
+      "train": 416,
+      "val": 89,
+      "test": 90
+    },
+    "OpenFoodFacts": {
+      "train": 349,
+      "val": 75,
+      "test": 75
+    }
+  },
+  "source_countries_present": [
+    "INDIA",
+    "NON_INDIAN"
+  ],
+  "ocr_text_regions_by_source_AUTO_or_ORIGINAL": {
+    "GroceryStoreDataset_Klasson2019": 13644,
+    "OpenFoodFacts": 2954
+  },
+  "sroie_ocr_text_regions_real_ORIGINAL_DATASET": 32174,
+  "declaration_field_candidates_by_source": {
+    "GroceryStoreDataset_Klasson2019": {
+      "NET_QUANTITY": 12,
+      "PRICE_TEXT_NON_MRP": 12
+    },
+    "OpenFoodFacts": {
+      "NET_QUANTITY": 62,
+      "BARCODE_LIKE": 15,
+      "MRP": 9,
+      "DATE_LIKE": 8
+    }
+  },
+  "declaration_field_candidates_total": 118,
+  "declaration_field_totals_by_type": {
+    "NET_QUANTITY": 74,
+    "PRICE_TEXT_NON_MRP": 12,
+    "BARCODE_LIKE": 15,
+    "MRP": 9,
+    "DATE_LIKE": 8
+  },
+  "product_level_metadata_declarations_total": 149,
+  "image_quality_metrics_AUTO_CV": {
+    "n_rows": 2275,
+    "blur_flag": 0,
+    "low_light_flag": 8,
+    "poor_contrast_flag": 0
+  },
+  "mrp_candidates_found": 9,
+  "note_mrp": "MRP regex candidates require a real Indian Rupee / MRP-keyword context to fire; 0 here means either no Indian data has been merged yet, or none of the merged images' OCR text matched the MRP pattern -- check manually before assuming failure."
+}
